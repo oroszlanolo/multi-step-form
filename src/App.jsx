@@ -4,10 +4,14 @@ import Steps from './components/Steps';
 
 function App() {
   return (<>
-    <main>
-      <Steps />
-      <Step1 />
-    </main>
+    <div className='main-container'>
+      <main>
+        <Steps />
+        <div className='form-part'>
+          <Step1 />
+        </div>
+      </main>
+    </div>
   </>);
 }
 

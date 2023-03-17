@@ -1,6 +1,8 @@
 .steps {
-    background-color: var(--blue-purplish);
+    background-image: url(/src/images/bg-sidebar-desktop.svg);
+    border-radius: 10px;
     padding: 30px;
+    padding-right: 85px;
     display: flex;
     flex-direction: column;
     gap: 30px;
@@ -13,18 +15,18 @@
 }
 
 .step.active .step-num{
-    background-color: var(--alabaster);
+    background-color: var(--blue-light);
     color: black;
 }
 
 .step-num {
-    border: 1px solid var(--alabaster);
-    width: 35px;
+    border: 2px solid var(--blue-light);
+    width: 40px;
     aspect-ratio: 1;
     border-radius: 100%;
     text-align: center;
     line-height: 35px;
-    color: var(--alabaster);
+    color: var(--blue-light);
     margin-right: 15px;
     font-weight: var(--fw-500);
 }
