@@ -1,0 +1,44 @@
+.steps {
+    background-color: var(--blue-purplish);
+    padding: 30px;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+.step {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.step.active .step-num{
+    background-color: var(--alabaster);
+    color: black;
+}
+
+.step-num {
+    border: 1px solid var(--alabaster);
+    width: 35px;
+    aspect-ratio: 1;
+    border-radius: 100%;
+    text-align: center;
+    line-height: 35px;
+    color: var(--alabaster);
+    margin-right: 15px;
+    font-weight: var(--fw-500);
+}
+
+.step-description p {
+    color: var(--white);
+    margin: 0;
+}
+
+.step-description p:first-child {
+    color: var(--gray-cool);
+    font-weight: var(--fw-500);
+}
+
+.step-description p:last-child {
+    font-weight: var(--fw-700);
+}
